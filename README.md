@@ -78,3 +78,28 @@ git push -u origin main
 ```
 git push origin main
 ```
+
+**View repository status**
+```
+git status
+```
+
+**View commits history**
+```
+git log
+```
+**View shortened commits history**
+```
+git log --oneline
+```
+**Quit from log** – _press "Q" on a keyboard_
+
+**File states**
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
