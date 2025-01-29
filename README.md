@@ -26,18 +26,8 @@
 | View commits history | ```git log``` |
 | View shortened commits history | ```git log --oneline``` |
 | Quit from log | Press "Q" on a keyboard |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
-|  | ``` ``` |
+| Edit last commit (HEAD)| Make changes (e.g. ```git add <missed file>```) and then ```git commit --amend --no-edit``` |
+| Edit last commit's message | ```git commit --amend -m "Edited message"``` |
 
 
 **File states**
