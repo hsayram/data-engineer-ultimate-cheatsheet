@@ -1,4 +1,4 @@
-# Cheatsheets
+# Cheatsheet
 
 ## SSH
 
